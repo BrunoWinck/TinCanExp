@@ -46,7 +46,7 @@ local.properties
 [Dd]ebug/
 [Rr]elease/
 x64/
-build/
+# tincan is using that build/
 [Bb]in/
 [Oo]bj/
 
