@@ -65,7 +65,6 @@
 	      <li ><a href="#about">About</a></li>
 	      <li ><a href="#contact">Contact</a></li>
 	      <li ><a href="Test">Test internal</a></li>
-	      <li ><a href="Upload">Upload</a></li>
 	      <li ><a href="StatementViewer/index.html">Viewer</a></li>
 	    </ul>
 	  </div>
@@ -80,12 +79,11 @@
       </div> 
       <div class="row-fluid subheading">
 	<div class="span12">
-	  <p class="lead">We experiment TinCAN.</p>
-	  <p class="members-list">Group Members
-	  <ul class="members-list">
-	  <li>Bruno Winck, Kneaver Corp, Software architect, <a href="http://kneaver.com/bruno">http://kneaver.com/bruno</a> , <a href="https://twitter.com/brunowinck">@brunowinck</a></li>
-	  </ul>
-	  </p>
+	<a href="CSVSample.csv">You got a sample file here to download, and reupload</a>
+	<form method="POST" enctype="multipart/form-data">
+	<label>Upload a csv file: <input type="file" name="csvfile"/></label>
+	<input type="submit" />
+	</form>
 	</div>
       </div>
       <div class="row-fluid footer">
